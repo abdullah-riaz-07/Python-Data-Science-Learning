@@ -1,0 +1,37 @@
+Lesson 1: Variables (Variables Kya Hain?)
+Aap samajh lein ke computer ki memory me aik "Dabba" (Box) hota hai jisme aap koi cheez chhupa kar ya sambhal kar rakhte hain. Us dabbe ko coding ki zuban me Variable kehte hain, aur jo cheez aap andar rakhte hain, use Data kehte hain.
+
+Chalein, real life ki misal lete hain:
+
+Python
+# Humne 'naam' naam ka aik dabba banaya aur usme "Ali" rakh diya
+naam = "Ali"
+
+# Humne 'umer' naam ka dabba banaya aur usme 18 rakh diya
+umer = 18
+Jab aap computer ko bolenge na ke naam dikhao, to woh aapko "Ali" dikhaayega.
+
+Lesson 2: Data Types (Dabbe ke andar kya hai?)
+Ab dabbe ke andar jo cheez aap rakh rahe hain, woh alag-alag kism ki ho sakti hai. Python me 3 buniyaadi kismen (Data Types) hoti hain jo aapko abhi seekhni hain:
+
+1. String (Text/Lafz)
+Jab bhi aapko koi naam, shahar ka naam, ya koi bhi text likhna ho, to usko hamesha Inverted Commas (" ") ke andar likhte hain.
+
+Python
+shahar = "Jhang"  # Yeh aik String hai
+2. Integer (Poora Number)
+Aise number jinme point (decimal) nahi hota, jaise 10, 20, 50, 100. Inko inverted commas ke bagair likhte hain.
+
+Python
+marks = 95  # Yeh aik Integer hai
+3. Float (Point wala Number)
+Aise number jinme point aata hai, jaise peson ka hisab ya umer ka hisab.
+
+Python
+price = 150.50  # Yeh aik Float hai
+Lesson 3: Print Function (Screen par dikhana)
+Ab computer ke dabbe me cheez to rakh di, par hme screen par dekhni bhi to hai na? Uske liye Python me aik bandooq hoti hai jise kehte hain print(). Aap iske andar jo daalenge, woh screen par chal jayega.
+
+Python
+naam = "Ali"
+print(naam)  # Screen par likha aayega: Ali
